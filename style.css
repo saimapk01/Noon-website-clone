@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: yellow;
+    color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav_logo{
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+}
+.logo{
+    background-image: url(noon-logo-en.svg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* flag design */
+.flag{
+    background-image: url(flag.svg);
+    height: 31px;
+    width: 30px;
+}
+/* button two */
+.ad_first{
+    color: black;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.ad_second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/* nav search(box 3) */
+.navbar_search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(206, 181, 101);
+    width: 620px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.search_select{
+    width: 20px;
+    background-color: yellow;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+.navbar_search:hover{
+    border: 2px solid orange;
+}
+.search_input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+/* box4 */
+span{
+ font-size: 0.75rem;
+}
+/* box5 */
+.nav_cart i{
+    font-size: 30px;
+}
+/* panel design */
+.panel{
+    display: flex;
+    height:40px;
+    background-color: white;
+    align-items: center;
+    color: black;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+.panel_ops p{
+    display: inline;
+    margin-left: 10px;
+
+}
+.panel_ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.penal_deal {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.image_after_panel{
+    background-image: url(after_panel.gif);
+    width: 900em;
+    height: 5em;
+}
+.image_gallery{
+    background-color: #febd68;
+    height: 300px;
+    width: 1500px;
+    padding: 30 1 1 1;
+    display: flex;
+}
+.image_slider{
+    background-color: aqua;
+    height: 300px;
+    width: 800px;
+}
+.carousel-inner{
+    height: 300px;
+    width: 800px;
+}
+.image1{
+    background-image: url(head1_lastpart_image1.avif);
+    background-color: rgb(46, 102, 150);
+    height: 300px;
+    width: 300px;
+}
+.image2{
+    background-image: url(head1_lastpart_image2.avif);
+    background-color: rgb(46, 102, 150);
+    height: 300px;
+    width: 300px;
+}
